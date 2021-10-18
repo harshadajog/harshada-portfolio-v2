@@ -1,0 +1,27 @@
+@import '../../styles/_colors.scss';
+
+footer {
+    max-width: $default-width;
+    margin: 16px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8rem;
+  
+    ul {
+        text-align: right;
+    }
+  
+    li {
+        padding: 0 10px;
+        display: inline-block;
+        border-right: 1px solid var(--gray);
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+  
+    .copyright {
+        color: var(--gray);
+    }
+}

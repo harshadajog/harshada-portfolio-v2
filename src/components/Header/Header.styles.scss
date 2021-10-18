@@ -1,0 +1,28 @@
+@import '../../styles/_colors.scss';
+
+header {
+    margin: 10px auto;
+    width: 500px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+  
+    .header-name {
+        padding: 4px 0;
+        font-size: 40px;
+        font-weight: bold;
+
+        a {
+            color: $text-color-secondary;
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+    .header-webdev {
+        padding: 4px;
+        background-color: brown;
+        font-size: 18px;
+        color: $lilac;
+    }
+}

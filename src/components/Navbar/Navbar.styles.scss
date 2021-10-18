@@ -1,0 +1,35 @@
+@import '../../styles/colors.scss';
+
+/* ---- Navbar Section---- */
+nav {
+    margin: 20px auto;
+    max-width: $default-width;
+    text-align: center;
+  
+    li {
+        padding: 0 20px;
+        display: inline-block;
+        border-right: 1px solid $lilac;
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $text-color-secondary;
+     
+        &:hover {
+            color: brown;
+        }
+        &:active {
+            color: brown;
+        }
+    }
+
+    .nav-active {
+        color: brown;
+    }
+}
+  
