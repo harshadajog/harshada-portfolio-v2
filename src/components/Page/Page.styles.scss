@@ -1,0 +1,20 @@
+@import '../../styles/colors.scss';
+.page {
+    margin: 0px auto;
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    min-height: 400px;
+    max-width: $default-width;
+    border-bottom: 2px solid brown;
+  
+    h3 {
+        font-size: 1.6rem;
+        color: brown;
+        border-bottom: 1px solid brown;
+    }
+  
+    h4 {
+        font-size: 1.2rem;
+        font-weight: normal;
+    }
+}

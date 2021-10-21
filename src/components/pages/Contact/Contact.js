@@ -26,7 +26,7 @@ function Contact() {
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/tharshadajog">
+          <a href="https://twitter.com/harshadajog">
             <FontAwesomeIcon icon={faTwitterSquare} size="lg" />
           </a>
         </li>

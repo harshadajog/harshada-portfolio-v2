@@ -19,6 +19,22 @@ header {
             }
         }
     }
+    .Nav-logo {
+        height: 60px;
+        width: 60px;
+        background-color: #ffff;
+        color: #737373;
+        border-radius: 50%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    
+        img{
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+        }
+    }
     .header-webdev {
         padding: 4px;
         background-color: brown;

@@ -1,35 +1,56 @@
 @import '../../styles/colors.scss';
 
 /* ---- Navbar Section---- */
-nav {
-    margin: 20px auto;
-    max-width: $default-width;
-    text-align: center;
-  
-    li {
-        padding: 0 20px;
-        display: inline-block;
-        border-right: 1px solid $lilac;
+.nav {
+    // height: 10vh;
+    // font-size: 1.5rem;
+    // display: flex;
+    // box-sizing: border-box;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
 
-        &:last-child {
-            border-right: none;
-        }
+    .nav-logo {
+        height: 60px;
+        width: 60px;
+        background-color: $primary-color;
+        border-radius: 50%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    
+        img{
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+        }       
     }
 
-    a {
-        text-decoration: none;
-        color: $text-color-secondary;
-     
-        &:hover {
-            color: brown;
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        border-bottom: 1px solid brown;
+        box-shadow: inset 0.2em 0.2em 0.4em rgba(255, 255, 255, 0.25), inset -2px -2px 4px rgba(0, 0, 0, 0.25);
+        li{
+             padding: 0.5rem 1rem; 
+            list-style: none;
         }
-        &:active {
-            color: brown;
+        a {
+            color: $nav-color;
+            letter-spacing: 1px;
+            text-decoration: none;
+
+            &:hover {
+                color: #989E8B;
+            }
         }
     }
-
     .nav-active {
-        color: brown;
-    }
+        color:  $brown-dark;
+    }   
 }
-  
+

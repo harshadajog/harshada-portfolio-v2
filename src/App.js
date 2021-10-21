@@ -5,7 +5,7 @@ import './App.scss';
 
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import Page from './components/Page';
+import Page from './components/Page/Page';
 import Footer from './components/Footer/Footer';
 
 

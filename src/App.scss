@@ -8,17 +8,38 @@
 }
 
 html {
+  margin-left: calc(100vw - 100%);
     body {
-        margin: 0;
-        background-color: $main-color;
-        /* background-image: url('../assets/background.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed; */
-      
-        font-family: "Roboto", sans-serif;
-        color: $text-color-main;
+      // height: 100vh;
+    //  background-image: url("https://source.unsplash.com/d4lv5slqeqY/1600x900");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      // text-shadow: 1px 1px 1px #007879;
+      color: $text-color;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
+}
+
+@media (max-width: 400px){
+  #Header h1{
+      font-size: 2rem;
+  }
+  h2{
+      font-size: 1.5rem;
+  }
+  #Nav {
+      height: 15vh;
+      flex-direction: column;
+  }
+  #Nav ul{
+      justify-content: space-between;
+      align-items: center;
+  }
+  #About .about-img {
+      min-width: 350px;
+  }
+
 }
 
 

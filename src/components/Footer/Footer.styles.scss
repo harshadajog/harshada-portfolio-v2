@@ -1,27 +1,25 @@
 @import '../../styles/_colors.scss';
-
 footer {
-    max-width: $default-width;
-    margin: 16px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 0.8rem;
-  
-    ul {
-        text-align: right;
-    }
-  
-    li {
-        padding: 0 10px;
-        display: inline-block;
-        border-right: 1px solid var(--gray);
+  //  height: 100px;
+    color: brown;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 
-        &:last-child {
-            border-right: none;
+    .footer-links {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 0.1rem;
+        padding-top: 0;
+        margin-top: 0;
+        li {
+            list-style: none;
+            border-left: 1px solid #fff;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
         }
-    }
-  
-    .copyright {
-        color: var(--gray);
+        a {           
+            color: #fff;
+        }
     }
 }
