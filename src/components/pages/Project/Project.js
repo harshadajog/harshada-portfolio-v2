@@ -3,7 +3,7 @@ import React from 'react';
 import './Project.styles.scss';
 
 function Project(props) {
-  const { name, description, details, tools, image, git, link, codepen } = props.data;
+  const { name, description, details, tools, git, link, codepen } = props.data;
   const toolList = tools.map((tool, i) => <div key={i}>{tool}</div>);
   const detailList = details.map((detail, i) => <li key={i}>{detail}</li>);
 

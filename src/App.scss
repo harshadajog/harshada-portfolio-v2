@@ -21,28 +21,6 @@ html {
       }
 }
 
-@media (max-width: 400px){
-  #Header h1{
-      font-size: 2rem;
-  }
-  h2{
-      font-size: 1.5rem;
-  }
-  #Nav {
-      height: 15vh;
-      flex-direction: column;
-  }
-  #Nav ul{
-      justify-content: space-between;
-      align-items: center;
-  }
-  #About .about-img {
-      min-width: 350px;
-  }
-
-}
-
-
 
 /* ---- Header Section---- */
 /* ---- End Header Section---- */
