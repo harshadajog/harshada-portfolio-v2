@@ -9,7 +9,9 @@
 
 html {
   margin-left: calc(100vw - 100%);
+  font-size: calc(60% + 0.8vmin);
     body {
+      margin: 0;
       // height: 100vh;
     //  background-image: url("https://source.unsplash.com/d4lv5slqeqY/1600x900");
       background-size: cover;
@@ -18,26 +20,33 @@ html {
       // text-shadow: 1px 1px 1px #007879;
       color: $text-color;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      }
+ 
+    }
+
+      h1, h2, h3,
+h4, h5, h6 {
+  margin: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
 
-/* ---- Header Section---- */
-/* ---- End Header Section---- */
+p {
+  padding: 2px 0;
+}
 
-
-
-
-
-
-/* ---- End Navbar Section---- */
-
-/* ---- Pages Section---- */
-/* ---- End Pages Section---- */
-
-/* ---- Footer Section---- */
-/* ---- End Footer Section---- */
-
-/* Color theme Lilac, rust, cream and coal:
-  https://99designs.com/blog/tips/website-color-schemes/  */
+a {
+  color: $brown-orange;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  &:hover {
+    color: $brown-dark;
+  }
+  &:active {
+    color: $brown-dark;
+  }
+}
+}
 

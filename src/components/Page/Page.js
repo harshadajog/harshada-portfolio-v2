@@ -22,8 +22,9 @@ const Page = ({ location, setMenuActive }) => {
             <Route exact path="/" component={Aboutme} />
             <Route exact path="/homepage" component={Aboutme} />
             <Route exact path="/about" component={Aboutme} />
-            <Route exact path="/resume" component={Resume} />
             <Route exact path="/projects" component={ProjectList} />
+            <Route exact path="/testimonials" component={Resume} />
+            <Route exact path="/resume" component={Resume} />
             <Route exact path="/contact" component={Contact} />
             <Redirect to="/" />
           </Switch>

@@ -2,43 +2,20 @@
 
 header {
     margin: 10px auto;
-    width: 500px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+     width: 500px;
     letter-spacing: 4px;
-  
-    .header-name {
-        padding: 4px 0;
-        font-size: 40px;
-        font-weight: bold;
-
-        a {
-            color: $text-color-secondary;
-            &:hover {
-                color: orange;
-            }
-        }
+    text-align: center;
+    .main-header {
+    padding: 4px 0;
+    font-size: 2.0rem;
+    font-weight: bold;
+ 
+    font-family:cursive;
     }
-    .Nav-logo {
-        height: 60px;
-        width: 60px;
-        background-color: #ffff;
-        color: #737373;
-        border-radius: 50%;
-        display: flex;
-        align-self: center;
-        justify-content: center;
-    
-        img{
-            border-radius: 50%;
-            height: 60px;
-            width: 60px;
-        }
-    }
-    .header-webdev {
-        padding: 4px;
-        background-color: brown;
-        font-size: 18px;
-        color: $lilac;
-    }
+  .sub-header {
+    padding: 4px;
+    background-color: $brown-orange;
+    color: $text-color;
+    // text-align: center;
+  }
 }

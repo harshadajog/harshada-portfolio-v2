@@ -30,7 +30,7 @@ function Project(props) {
         </div>
 
         {link && <a href={link} target="_blank" rel="noopener noreferrer">Live</a>}
-        {git && <a href={git} target="_blank" rel="noopener noreferrer">Github</a>}
+        {git && <a href={git} target="_blank" rel="noopener noreferrer">Git</a>}
         {codepen && <a href={codepen} target="_blank" rel="noopener noreferrer">CodePen</a>}
       </div>
 

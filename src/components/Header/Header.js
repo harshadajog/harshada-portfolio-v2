@@ -1,20 +1,21 @@
 import React from 'react';
-
+import logo from '../../assets/logo_palette.png';
 import './Header.styles.scss';
 
 function Header() {
   return (
   <header>
-    {/* <a href="/" className="Nav-logo">
-        <img src="./logo_color1.png" alt="logo" />   
-        </a>
-    {/* <h1 className="header-name">
+    <h1 className="main-header">
+      <img src={logo} alt="logo" height="32" />
       <a href="http://harshadajog.com">
-        Harshada Jog
+        HARSHADA JOG
       </a>
-    </h1> 
-    <div className="header-webdev">Software Engineer, Frontend</div> */}
-  </header>)
+    </h1>
+    {/* <div className="sub-header">
+      Software Engineer
+    </div> */}
+  </header>
+  )
 }
 
 export default Header;

@@ -7,8 +7,8 @@ const projects = [
       ],
       tools: ['React', 'Javascript', 'CSS'],
       image: 'shopping',
-      git: 'git link',
-      link: 'link',
+      git: 'https://github.com/harshadajog/profile-search-and-tag',
+      link: 'https://profile-search-tag.herokuapp.com/',
       codepen: ''
     },
     {
@@ -29,8 +29,8 @@ const projects = [
       details: [],
       tools: ["React", "Javascript", "CSS", "HTML"],
       image: "",
-      git: "git link",
-      link: "",
+      git: "https://github.com/harshadajog/harshada-portfolio-v2",
+      link: "ttps://inspiring-bohr-eb6a48.netlify.app",
       codepen: ""
     },
   ]

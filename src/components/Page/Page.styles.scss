@@ -2,19 +2,46 @@
 .page {
     margin: 0px auto;
     padding: 20px 14px;
-    margin-bottom: 25px;
     min-height: 400px;
     max-width: $default-width;
-    border-bottom: 2px solid brown;
-  
+    border-bottom: 2px solid $brown-dark;
+    .transition-group {
+      position: relative;
+    }
     h3 {
         font-size: 1.6rem;
-        color: brown;
-        border-bottom: 1px solid brown;
+        color: $brown-orange;
+        border-bottom: 1px solid $brown-dark;
     }
   
     h4 {
         font-size: 1.2rem;
         font-weight: normal;
     }
+
+
+  
+  .fade-enter {
+    opacity: 0.01;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+  }
+  
+  .fade-exit {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: all 0.3s ease-in;
+    transform: translateY(50%);
+  }
 }
